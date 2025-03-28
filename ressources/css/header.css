@@ -23,6 +23,10 @@ header nav a{
     text-decoration: none;
     color: aliceblue;
 }
+header nav a:hover{
+    color: #F2B705;
+    transition: 0.3s all;
+}
 header nav li{
     list-style: none;
     margin: 10px;
