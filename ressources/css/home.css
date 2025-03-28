@@ -1,0 +1,193 @@
+a:hover{
+    color: #F2B705;
+    transition: 0.3s all;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin: 50px;
+    padding: 80px;
+    color: aliceblue;
+}
+
+.publi h2{
+    font-size: 56px;
+    line-height: 50px;
+}
+.publi span{
+    color: #D94A4A;
+}
+.publi p{
+    line-height: 20px;
+    max-width: 500px;
+}
+
+.publia{
+    background: rgba(81, 81, 167, 0.226);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 18px;
+}
+.conta{
+    line-height: 40px;
+    max-width: 100%;     
+}
+.conta h1{
+    font-family: "Barriecito", system-ui;
+    padding: 10px;
+}
+.conta p{
+    font-family: "Roboto", sans-serif;
+}
+.conta h2 {
+    font-family: "Barriecito", system-ui;
+}
+
+.btn-inscricao{
+    border: 2px solid #9E3636;
+    padding: 10px;
+    border-radius: 20px;
+}
+.btn-inscricao:hover{
+    background-color: #9E3636;
+}
+
+input{
+    margin-top: 20px;
+    height: 30px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+.msg{
+    margin-top: 20px;
+    height: 200px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+.enviar{
+    height: 50%;
+    width: 50%;
+    background-color: #9E3636;
+    color: white;
+    font-weight: bold;
+
+}
+.enviar:hover{
+    color: #F2B705;
+    cursor: pointer;
+}
+
+
+.publicacao{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    font-family: "Sacramento", cursive; 
+    color: ;  
+}
+hr{
+    border-color: #911616ab;
+}
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+span{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.publi{
+    margin: 30px;
+}
+.publi-coment{
+    width: 80%;
+    margin: 15px;
+}
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    margin: auto;
+    
+}
+.opiniao{
+    color: white;
+}
+.opiniao-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.comentario-subtitle{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.comentario-card{
+    padding: 0 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+}
+.comentario-minicard{
+    background: rgba(9, 9, 100, 0.226);
+    padding: 2rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+    margin-top: 2rem;   
+}
+
+.card-detalhe{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+}
+.card-titulo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #D94A4A;
+}
+
+.comentario-descricao{
+    
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+}
+.comentario-autor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+    gap: 0.5rem;
+}
+
+.nome-autor{
+    color: #D94A4A;
+    font-size: 0.8rem;
+    font-weight: 400;
+
+}
+
