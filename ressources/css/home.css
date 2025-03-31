@@ -23,6 +23,9 @@ main{
     line-height: 20px;
     max-width: 500px;
 }
+.social{
+    font-size: 2rem;
+}
 
 .publia{
     background: rgba(81, 81, 167, 0.226);
